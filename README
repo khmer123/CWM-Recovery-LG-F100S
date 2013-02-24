@@ -1,0 +1,8 @@
+LG-F100S(옵티머스뷰 SKT)에서 사용가능하도록 포팅하였습니다.
+http://cafe.naver.com/androidhacker/1016 에 공개되어있는 LG-F100L를 살짝 수정하여 F100S에서도 정상 작동하도록 수정하였습니다.
+부트 이미지는 build.sh만 실행하면 빌드됩니다.
+
+CWM Recovery는 아래와 같이 적용합니다.
+$ adb push recovery.img /mnt/sdcard/recovery.img
+$ adb shell
+# dd if=/mnt/sdcard/recovery.img of=/dev/block/mmcblk0p13

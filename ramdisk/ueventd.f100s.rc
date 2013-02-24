@@ -1,0 +1,8 @@
+## [START] LGE_325_BATT_ATCMD_SUPPORT
+/sys/devices/platform/b325_battery	at_charge    0660    system  system
+/sys/devices/platform/b325_battery	at_chcomp    0660    system  system
+/sys/devices/platform/b325_battery	at_fuelrst   0660    system  system
+/sys/devices/platform/b325_battery	at_fuelval   0660    system  system
+/sys/devices/platform/b325_battery	at_pmrst     0660    system  system
+/sys/devices/platform/b325_battery	at_batl      0660    system  system
+## [END] LGE_325_BATT_ATCMD_SUPPORT
